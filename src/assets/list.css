@@ -1,0 +1,33 @@
+.listCon {
+  width: 650px;
+  height: 800px;
+  margin: 0 auto;
+  margin-top: 50px;
+  border: 1px solid red;
+}
+
+.noListFont {
+  color: #808080;
+}
+
+.list {
+  display: flex;
+  align-items: center;
+  margin: 1rem 0;
+  width: 100%;
+  padding: 0.5rem;
+  border-radius: 8px;
+  border: 1.5px solid #d9d9d9;
+}
+
+.list p {
+  display: block;
+  flex: 1;
+  color: #d9d9d9;
+}
+
+.list i {
+  display: block;
+  cursor: pointer;
+  padding: 0.5rem;
+}

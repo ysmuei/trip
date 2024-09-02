@@ -1,0 +1,21 @@
+.totalCount {
+  width: 50%;
+  margin: 0 auto;
+  border-bottom: 1px solid #808080;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0.5rem;
+}
+
+.total {
+  color: #8284fa;
+  font-weight: bold;
+}
+
+.count {
+  display: inline-block;
+  width: 30px;
+  border-radius: 12px;
+  font-size: 16px;
+  background-color: white;
+}

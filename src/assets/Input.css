@@ -1,0 +1,41 @@
+.inputCon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(-20px);
+}
+
+.inputText {
+  width: 560px;
+  height: 30px;
+  padding: 0.4rem;
+  background-color: #333333;
+  border: none;
+  border-radius: 8px;
+  margin-right: 10px;
+}
+
+.inputBtn {
+  padding-right: 2.5rem;
+  width: 80px;
+  height: 45px;
+  border: none;
+  border-radius: 8px;
+  background-color: #1E6F9F;
+  color: white;
+  position: relative;
+}
+
+.inputBtn::after {
+  content: "+";
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 15px;
+  height: 15px;
+  border: 1px solid white;
+  border-radius: 50%;
+  top: 15px;
+  transform: translateX(43px);
+}

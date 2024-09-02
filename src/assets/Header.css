@@ -1,0 +1,20 @@
+.header {
+  background-color: #0d0d0d;
+  height: 170px;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+}
+
+.header i {
+  color: #5e60ce;
+}
+
+.gaja {
+  color: #4EA8DE;
+}
+
+.travel {
+  color: #1E6F9F;
+}
